@@ -31,15 +31,15 @@
                     android:id="@+id/close"/>
 
                 <TextView
+                    android:id="@+id/post"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="POST"
-                    android:id="@+id/post"
-                    android:textSize="16sp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
-                    android:textColor="@color/colorPrimary"/>
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:text="POST"
+                    android:textColor="#279A94 "
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -63,12 +63,12 @@
             android:id="@+id/image_added"/>
 
         <EditText
+            android:id="@+id/description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:hint="Description"
-            android:maxLines="5"
-            android:id="@+id/description"/>
+            android:hint="Enter description here"
+            android:maxLines="5" />
 
 
 

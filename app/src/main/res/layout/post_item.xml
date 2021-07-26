@@ -64,25 +64,28 @@
 
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
                 android:id="@+id/like"
-                android:src="@drawable/ic_like"/>
-
-            <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:id="@+id/comment"
-                android:src="@drawable/ic_comment"
-                android:layout_toEndOf="@id/like"
-                android:layout_marginStart="10dp"/>
+                android:src="@drawable/ic_like"
+                android:tint="#279A94 " />
 
             <ImageView
+                android:id="@+id/comment"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/like"
+                android:src="@drawable/ic_comment"
+                android:tint="#279A94 " />
+
+            <ImageView
+                android:id="@+id/save"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_alignParentEnd="true"
-                android:id="@+id/save"
-                android:src="@drawable/ic_save"/>
+                android:src="@drawable/ic_save"
+                android:tint="#279A94 " />
         </RelativeLayout>
 
         <TextView

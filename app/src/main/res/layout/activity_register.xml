@@ -4,18 +4,18 @@
        xmlns:tools="http://schemas.android.com/tools" 
        android:layout_width="match_parent" 
        android:layout_height="match_parent" 
-       android:orientation="vertical" 
-       android:gravity="center" 
-       android:padding="10dp" 
-       tools:context=".RegisterActivity"> 
-  
-<ImageView 
-        android:layout_width="wrap_content" 
-        android:layout_height="50dp" 
-        android:src="@drawable/logo"/> 
-  
-  
-<EditText 
+       android:orientation="vertical"
+       android:padding="40dp"
+       tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="139dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"/>
+
+
+    <EditText
        android:layout_width="match_parent" 
        android:layout_height="wrap_content" 
        android:background="@drawable/edittext_background" 
@@ -60,13 +60,15 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/button_background"
         android:text="Register"
-        android:textColor="@color/purple_200" />
-  
-<TextView 
+        android:textColor="@color/black"
+        app:backgroundTint="#279A94 " />
+
+    <TextView
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" 
         android:text="Already have an account? Log In" 
-        android:id="@+id/txt_login" 
+        android:id="@+id/txt_login"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
 
     <TextView
